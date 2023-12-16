@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.item-btn {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.item-name {
+  font-size: 13px;
+  font-weight: 550;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.clicked-item {
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1.5px;
+  border-color: #0284c7;
+  color: #0284c7;
+}
+
+@media (min-width: 768px) {
+  .item-name {
+    font-size: 16px;
+  }
+}

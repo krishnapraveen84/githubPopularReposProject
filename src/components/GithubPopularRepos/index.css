@@ -1,1 +1,20 @@
 /* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  font-size: 26px;
+  font-family: Lobster;
+}
+.filter-items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
